@@ -49,16 +49,13 @@ Tested: Feb 19, 2020; Passed with no problems.
         </div>	
     </div>
     <script>
-        $("body").bind("swipe", function(e) {
-            $("#status").append("You just did a swipe event!<br/>");
-        });
-        
+   
         $("body").bind("swipeleft", function(e) {
-            $("#status").append("You just did a swipe left event!<br/>");
+            $("#status").append("You just swiped left!<br/>");
         });
         
         $("body").bind("swiperight", function(e) {
-            $("#status").append("You just did a swipe right event!<br/>");
+            $("#status").append("You just swiped right!<br/>");
         });
         </script>
 </body>
